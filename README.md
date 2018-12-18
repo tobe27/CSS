@@ -2,7 +2,7 @@
 CSS DEMO
 
 ## 九宫格
-soduku
+sudoku
 
 ## 移动端页面
 mobile
