@@ -4,44 +4,105 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-size: 16px;
+    font-size: 10px;
     font-size: 1rem;
     color: aliceblue;
     font-family: Georgia;
+    background-color: #eff0f4;
 }
 
 .header {
+    position: absolute;
     font-size: 1rem;
     width: 100%;
     height: 40px;
-    margin: 0;
-    background-color: #66cdd5;
-    text-align: center;  
+    top: 0px;
+    background-color: #5fc0cd;
     
 }
 
 .register {
-    margin-top: 12px;
+    margin-top: -30px;
     margin-left: 10px;
     float: left;
 }
 
 .login {
-    width: 50%; 
-    overflow: auto; 
-    margin: auto; 
-    position: absolute; 
-    top: 0; left: 0; bottom: 0; right: 0; 
-    font-size: 1.4rem;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    top: 0px;
+    display: flex;
+    align-items: center; /*定义垂直居中*/
+    justify-content: center; /*定义水平居中 */
+    font-size: 1.2rem;
+    
 }
 
 .close {
-    margin-top: 12px;
+    margin-top: -30px;
     margin-right: 10px;
     float: right;
+} 
+
+form {
+    position: absolute;
+    top: 50px;
+    height: 80px;
+    width: 100%;
 }
 
-.commit {
-    background-color: #66cdd5;
-    text-align: center; 
+.input-form {
+    display: flex;
+    align-items: center; /*定义垂直居中*/
+    justify-content: center; /*定义水平居中 */
+    margin-top: 8px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+.input-form input {
+    width: 100%;
+    height: 32px;
+    margin-left: 10%;
+    padding-left: 40px;
+    border: 0;
+}
+
+.input-form input:hover {
+    border: 0 solid #dcdcdc;
+}
+
+.input-form input:after {
+    border: 0 solid #dcdcdc;
+}
+
+
+.input-form .icon {
+    width: 30px;
+    height: 20px;
+    margin: 8px 10px 5px 10px;
+    border-right: 1px solid #dcdcdc;
+    display: inline-block;
+    position: absolute;
+    
+}
+
+.commit button {
+    width: 100%;
+    height: 40px;
+    top: 200px;
+    border: 0;
+    position: absolute;
+    background-color: #5fc0cd;
+    color: aliceblue;
+}
+
+.forget {
+    top: 250px;
+    left: 70%;
+    position: absolute;
 }
