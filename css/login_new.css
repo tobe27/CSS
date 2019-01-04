@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    /*text-decoration: none;*/
+    text-decoration: none;
     box-sizing: border-box;
     outline: none;
 }
@@ -41,7 +41,7 @@ html, body {
     top: -100%;
     line-height: 5rem;
     font-size: 1.2rem;
-
+    color: aliceblue;
 }
 
 .header-center {
@@ -62,6 +62,7 @@ html, body {
     top: -100%;
     line-height: 5rem;
     font-size: 1.2rem;
+    color: aliceblue;
 }
 
 /**********************头部结束*********************/
@@ -118,6 +119,7 @@ html, body {
     font-size: 1.2rem;
     font-weight: normal;
     cursor: pointer;
+    border-bottom: 1px solid #5fc0cd;
 }
 
 /**********************内容结束*********************/
