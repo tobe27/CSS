@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    font-size: 10px;
+    min-width: 320px;
+}
+
+/*防止高度坍塌*/
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+
+}
+
+/**********************头部开始*********************/
+.header {
+    background-color: #5fc0cd;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.header-title {
+    width: 100%;
+    height: 100%;
+}
+
+.header-title-center {
+    background-color: #808080;
+    width: 40%;
+    height: 40px;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+
+.header-title-left {
+    width: 50%;
+    height: 100%;
+    float: left;
+    line-height: 40px;
+    border-radius: 5px;
+}
+.header-title-left a {
+    color: #fff;
+}
+
+.header-title-right {
+    background-color: #fff;
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin: 0 auto;
+    line-height: 40px;
+    border-radius: 5px;
+}
+.header-title-right a {
+    color: #5fc0cd;
+}
+
+.header a img {
+    float: right;
+    position: relative;
+    margin-right: 20px;
+    margin-top: -35px;
+}
+
+
+/**********************头部结束*********************/
+
+
+/**********************内容开始*********************/
+.content {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 50px;
+}
+
+.content-list-head {
+    background-color: #fff;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    display: flex;
+    position: fixed;
+    top: 50px;
+    text-align: center;
+    z-index: 999;
+}
+
+.content-list-head div {
+    flex: 1;
+    border-right: 1px solid #808080;
+    border-bottom: 1px solid #808080;
+}
+
+.content-list-head div img{
+    vertical-align: middle;
+    position: relative;
+    left: 15px;
+}
+
+.content-list-head span:last-child {
+    border-right: none;
+}
+
+
+.content-list-content {
+    position: relative;
+    top: 50px;
+    border-bottom: 1px solid #808080;
+}
+
+.content-list-content-first {
+
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    color: #808080;
+}
+
+.content-list-content-first img {
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+    margin-left: 10px;
+}
+
+.content-list-content-second {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+}
+.content-list-content-second span {
+    padding-left: 10px;
+}
+
+.content-list-content-second a {
+    float: right;
+    margin-right: 20px;
+}
+
+/**********************内容结束*********************/
+
+
+/**********************尾部开始*********************/
+.footer {
+    background-color: #5fc0cd;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer-center {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto;
+}
+
+
+/**********************尾部结束*********************/
