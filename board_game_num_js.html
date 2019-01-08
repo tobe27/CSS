@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>桌游精灵-人数</title>
+    <link rel="icon" type="image/x-icon" href="./images/icon.png"/>
+    <!--Bootstrap-->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/board_game_num_js.css" >
+</head>
+
+<body>
+
+<!--头部-->
+<header class="header">
+    <div>
+        <img src="./images/menu.png" alt="" width="30">
+    </div>
+</header>
+
+<!--内容-->
+<section class="content clearfix">
+
+    <div class="content-top">
+        <span>玩家配比</span>
+    </div>
+
+    <div class="content-center">
+        <div>
+            <img src="./images/team.png" alt="" width="30">
+            <span>杀手 <span id="num1"></span> 人</span>
+        </div>
+        <div>
+            <img src="./images/team.png" alt="" width="30">
+            <span>平民 <span id="num2"></span> 人</span>
+        </div>
+    </div>
+
+    <div class="content-bottom">
+        <form action="">
+            <div>
+                <span>请输入玩家数量</span>
+                <input type="text" id="playerNumber" name="playerNumber">
+                <span>玩家数量为4-18</span>
+            </div>
+            <button class="btn btn-success">去发牌</button>
+        </form>
+    </div>
+
+</section>
+
+<!--尾部-->
+<footer class="footer">
+    <div class="footer-dot footer-dot-using">
+    </div>
+    <div class="footer-dot">
+    </div>
+    <div class="footer-dot">
+    </div>
+    <div class="footer-dot">
+    </div>
+</footer>
+
+<!--Bootstrap-->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
